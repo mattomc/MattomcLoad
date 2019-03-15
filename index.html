@@ -1,0 +1,121 @@
+<!--Made with HTML by Matthew Mc -->
+<!doctype HTML>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="w3.css">
+<style>
+body, html {
+  height: 100%;
+    background-color: black;
+}
+#container {
+    position:fixed;
+    top: 30%%;
+    left: 70%
+    align-content: center;
+}
+.w3-animate-fading {
+    position:relative;
+}
+.w3-panel {
+    position: relative;
+    bottom: 90%;
+    right: 60%;
+    left: 60%;
+    align-content: center;
+}
+    ul {
+        font-size: 20px;
+    }
+    p {
+        font-size: 20px;
+    }
+.rules {
+    bottom: 90%;
+    right: 60%;
+    left: 60%;
+    align-content: center;
+    text-align: left;
+    color: aqua
+}
+.loading {
+    bottom: 20px;
+}
+</style>
+</head>
+<body>
+
+ <!-- Audio Portion of Loading Screen -->
+   <audio id="Loading" autoplay loop >
+         <source src="https://www.usainwa.com/Loadscreen/musictest.mp3" type="audio/mp3">
+    </audio>
+  <!-- Audio Volume -->
+	<script>
+     var vid = document.getElementById("Loading");
+     vid.volume = 1.0
+    </script>
+
+<!-- Loading Images from FAXES <3 -->
+
+    <div class="mySlides fade">
+      <img class="w3-animate-fading" src="images/Load_1.jpg" alt="load" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img class="w3-animate-fading" src="images/Load_2.jpg" alt="load" style="width:100%">
+    </div>    
+    <div class="mySlides fade">
+      <img class="w3-animate-fading" src="images/Load_3.jpg" alt="load" style="width:100%">
+    </div>    
+    <div class="mySlides fade">
+      <img class="w3-animate-fading" src="images/Load_4.jpg" alt="load" style="width:100%">
+    </div>    
+    <div class="mySlides fade">
+      <img class="w3-animate-fading" src="images/Load_5.jpg" alt="load" style="width:100%">
+    </div> 
+    <div class="mySlides fade">
+      <img class="w3-animate-fading" src="images/Load_6.jpg" alt="load" style="width:100%">
+    </div>   
+<script type = "text/javascript">
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 10000); // Change image every 2 seconds
+}
+</script>  
+      <!-- Title or Name Of Server -->
+    <div class="w3-panel w3-transparent w3-card-4">
+        <p style="color: black"><span style="color: #3C3B6E">U</span><span style="color: #FFFFFF">S</span><span style="color: #B22234">A</span> <span style="color:aqua">IN</span> <span style="color: green">W</span><span style="color: gold">A</span> <span style="color: RED"><strong>SERVER 1</strong></span></p>
+    </div>
+    
+    <!-- Simple rules section of server -->
+
+    <div class="w3-panel w3-transparent w3-card-4 rules">
+        <ul><li><strong>Discord channels MUST BE USED</strong></li><li>If new you will only be able to use the pistol</li><li>To use weapons please fill in the whitelist form</li><li>No Fail RP</li><li>No RDM/RVD</li><li>Do not revive when clearly dead</li><li>Have some level of realism</li><li>No <strong>Innapropiate Names</strong></li><li>Discord name must match in game</li><li>Must be in our Discord server</li><li><strong>Do not leave halfway through a rp</strong></li><li>Civilians <Strong>Must follow the Rank Structure</Strong></li><li>Civs must be realistic</li></ul>
+        <p>For more rules look at the discord server
+        <br><br>Join discord at: https://discord.gg/y9euT8X
+        <br>
+        <br>
+        <br>
+        <br>&copy; 2019 USA in WA Development Team
+        </p>
+    </div>
+
+    <!-- Loading server portion of script -->
+
+    <div class="w3-panel w3-black w3-card-4 w3-opacity-min">
+    <p class="loading">Loading Server  <i class="fa fa-spinner w3-spin" style="font-size:24px"></i></p>
+    </div>
+    
+</body>
+</html>
