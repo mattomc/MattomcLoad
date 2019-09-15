@@ -5,7 +5,7 @@ Welcome to MattomcLoading screen, were here to help you create a new loading scr
 if you need any support or just wanna have a chat join my Discord server:
 https://discord.gg/WP4q95d
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+Please do not redistribute any of my work without written consent from me (Matto MC#3158) On Discord or through the forums. if you do have permission please credit me on the forum topic
 
 ## EDITING THE LOADING SCREEN
 
